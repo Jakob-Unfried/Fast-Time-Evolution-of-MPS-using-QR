@@ -1,0 +1,35 @@
+2022-11-28 12:21:04 - ClockModel: reading 'bc_MPS'='infinite'
+2022-11-28 12:21:04 - ClockModel: reading 'conserve'=None
+2022-11-28 12:21:04 - ClockModel: reading 'N'=10
+2022-11-28 12:21:04 - ClockModel: reading 'L'=2
+2022-11-28 12:21:04 - ClockModel: reading 'J'=1.0
+2022-11-28 12:21:04 - ClockModel: reading 'g'=2
+2022-11-28 12:21:04 - TEBDEngine: subconfig 'trunc_params'=Config(<2 options>, 'trunc_params')
+2022-11-28 12:21:04 - TEBDEngine: reading 'dt'=0.05
+2022-11-28 12:21:04 - TEBDEngine: reading 'N_steps'=1
+2022-11-28 12:21:04 - TEBDEngine: reading 'order'=2
+2022-11-28 12:21:04 - Calculate U for {'order': 2, 'delta_t': 0.05, 'type_evo': 'real', 'E_offset': None, 'tau': 0.05}
+2022-11-28 12:21:04 - trunc_params: reading 'chi_max'=4096
+2022-11-28 12:21:04 - trunc_params: reading 'svd_min'=1e-14
+2022-11-28 12:21:04 - --> time=0.050, max(chi)=9, max(S)=0.00000, avg DeltaS=9.7871e-07, since last update: 0.2s
+2022-11-28 12:21:04 - svd, N=10, n=  1, chi=    9, S_vN=[6.43579384e-07 1.31383377e-06], err=6.746364224812023e-15, time: 0:00:00
+2022-11-28 12:21:04 - --> time=0.100, max(chi)=15, max(S)=0.00005, avg DeltaS=4.5198e-05, since last update: 0.2s
+2022-11-28 12:21:04 - svd, N=10, n=  2, chi=   15, S_vN=[4.22483606e-05 5.01043411e-05], err=2.5126530102253324e-14, time: 0:00:00
+2022-11-28 12:21:04 - --> time=0.150, max(chi)=22, max(S)=0.00044, avg DeltaS=3.7718e-04, since last update: 0.5s
+2022-11-28 12:21:04 - svd, N=10, n=  3, chi=   22, S_vN=[0.00040801 0.0004387 ], err=3.363920660525076e-14, time: 0:00:00
+2022-11-28 12:21:05 - --> time=0.200, max(chi)=28, max(S)=0.00200, avg DeltaS=1.5361e-03, since last update: 0.7s
+2022-11-28 12:21:05 - svd, N=10, n=  4, chi=   28, S_vN=[0.00192167 0.00199721], err=4.46554216313385e-14, time: 0:00:01
+2022-11-28 12:21:06 - --> time=0.250, max(chi)=36, max(S)=0.00628, avg DeltaS=4.2491e-03, since last update: 0.5s
+2022-11-28 12:21:06 - svd, N=10, n=  5, chi=   36, S_vN=[0.00613712 0.00627992], err=4.989232519495565e-14, time: 0:00:02
+2022-11-28 12:21:06 - --> time=0.300, max(chi)=42, max(S)=0.01553, avg DeltaS=9.2129e-03, since last update: 0.4s
+2022-11-28 12:21:06 - svd, N=10, n=  6, chi=   42, S_vN=[0.0153084  0.01553439], err=5.588334023348043e-14, time: 0:00:02
+2022-11-28 12:21:07 - --> time=0.350, max(chi)=49, max(S)=0.03243, avg DeltaS=1.6852e-02, since last update: 0.6s
+2022-11-28 12:21:07 - svd, N=10, n=  7, chi=   49, S_vN=[0.03211659 0.03242962], err=6.350418372636817e-14, time: 0:00:03
+2022-11-28 12:21:08 - --> time=0.400, max(chi)=58, max(S)=0.05959, avg DeltaS=2.7125e-02, since last update: 1.0s
+2022-11-28 12:21:08 - svd, N=10, n=  8, chi=   58, S_vN=[0.05920398 0.05959313], err=7.487738453579671e-14, time: 0:00:03
+2022-11-28 12:21:09 - --> time=0.450, max(chi)=69, max(S)=0.09906, avg DeltaS=3.9442e-02, since last update: 1.5s
+2022-11-28 12:21:09 - svd, N=10, n=  9, chi=   69, S_vN=[0.09862071 0.09906133], err=8.447311270706223e-14, time: 0:00:05
+2022-11-28 12:21:11 - --> time=0.500, max(chi)=79, max(S)=0.15177, avg DeltaS=5.2704e-02, since last update: 2.1s
+2022-11-28 12:21:11 - svd, N=10, n= 10, chi=   79, S_vN=[0.15131603 0.15177413], err=9.597483595810894e-14, time: 0:00:07
+2022-11-28 12:21:16 - --> time=0.550, max(chi)=91, max(S)=0.21724, avg DeltaS=6.5475e-02, since last update: 4.6s
+2022-11-28 12:21:16 - svd, N=10, n= 11, chi=   91, S_vN=[0.21680041 0.21723932], err=1.07472679982192e-13, time: 0:00:12
