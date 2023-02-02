@@ -10,9 +10,9 @@ import time
 from pathlib import Path
 from typing import Union
 
-from benchmark.backends import NumpyBackend, TorchBackend
-from benchmark.clock_model import ClockModel
-from benchmark.truncator import SvdTruncator, QrTruncator, EigTruncator, QrTruncatorWithCBE
+from .backends import NumpyBackend, TorchBackend
+from .clock_model import ClockModel
+from .truncator import SvdTruncator, QrTruncator, EigTruncator, QrTruncatorWithCBE
 
 g = 2
 dt = 0.05

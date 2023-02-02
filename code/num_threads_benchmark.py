@@ -1,10 +1,5 @@
 import os
 
-from benchmark.backends import NumpyBackend, TorchBackend
-from benchmark.clock_model import ClockModel
-from benchmark.run import prepare_product_state
-from benchmark.truncator import SvdTruncator, QrTruncator, QrTruncatorWithCBE, EigTruncator
-
 os.environ['MKL_DYNAMIC'] = 'False'
 os.environ['MKL_NUM_THREADS'] = '64'
 os.environ['OMP_NUM_THREADS'] = '64'
@@ -13,7 +8,12 @@ import argparse
 import pickle
 import time
 from pathlib import Path
-from benchmark.tebd import iTEBD
+
+from .tebd import iTEBD
+from .backends import NumpyBackend, TorchBackend
+from .clock_model import ClockModel
+from .run import prepare_product_state
+from .truncator import SvdTruncator, QrTruncator, QrTruncatorWithCBE, EigTruncator
 
 g = 2
 L = 2

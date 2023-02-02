@@ -1,7 +1,7 @@
 from math import ceil
 from typing import Union
-from benchmark.backends import NumpyBackend, TorchBackend
-from benchmark.truncator import SvdTruncator, QrTruncator, EigTruncator, QrTruncatorWithCBE
+from .backends import NumpyBackend, TorchBackend
+from .truncator import SvdTruncator, QrTruncator, EigTruncator, QrTruncatorWithCBE
 
 
 class iTEBD:

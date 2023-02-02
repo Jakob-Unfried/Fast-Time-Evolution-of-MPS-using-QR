@@ -1,6 +1,6 @@
 from math import sqrt
 from typing import Union
-from benchmark.backends import NumpyBackend, TorchBackend
+from .backends import NumpyBackend, TorchBackend
 
 
 # noinspection PyMethodMayBeStatic

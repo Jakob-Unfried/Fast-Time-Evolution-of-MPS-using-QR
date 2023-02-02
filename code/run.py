@@ -13,10 +13,10 @@ from pathlib import Path
 import time
 from typing import Union
 
-from benchmark.backends import NumpyBackend, TorchBackend
-from benchmark.clock_model import ClockModel
-from benchmark.tebd import iTEBD
-from benchmark.truncator import QrTruncator, SvdTruncator, EigTruncator, QrTruncatorWithCBE
+from .backends import NumpyBackend, TorchBackend
+from .clock_model import ClockModel
+from .tebd import iTEBD
+from .truncator import QrTruncator, SvdTruncator, EigTruncator, QrTruncatorWithCBE
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
