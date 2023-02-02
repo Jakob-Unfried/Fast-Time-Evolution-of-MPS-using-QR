@@ -259,20 +259,3 @@ class QrTruncatorWithCBE:
     def mirror_S(self, S):
         """return the transpose of an S matrix, used when spatially mirroring an MPS"""
         return S
-
-
-class PolarTruncator:
-
-    def truncated_polar(self, M, delta=1e-12):
-        """
-        computes a truncated polar decomposition
-
-        M = U' H'
-
-        where if M is m x n we have an m x k isometry U' and a k x n matrix H'
-        the rank k of the approximation is given by the number of singular values of M greater than delta.
-
-        An equivalent decomposition could be achieved via svd, i.e.
-
-
-        """
