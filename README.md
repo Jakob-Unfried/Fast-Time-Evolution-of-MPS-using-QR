@@ -1,7 +1,5 @@
 This repository contains the simulation code, benchmark data and figures used in our paper;
 
-An implementation in [tenpy](https://github.com/tenpy/tenpy) is under [development](https://github.com/tenpy/tenpy/pull/202).
-
 ## Fast Time-Evolution of Matrix-Product States using the QR decomposition
 Jakob Unfried, Johannes Hauschild and Frank Pollmann
 
@@ -14,4 +12,14 @@ down to $d^2$. Moreover, the QR decomposition has a lower computational complexi
 allows for highly efficient implementations on GPU hardware. In a benchmark simulation of a global
 quench in a quantum clock model, we observe a speedup of up to three orders of magnitude comparing
 QR and SVD based updates on an A100 GPU.
+
+## Tenpy implementation
+
+There is also an implementation of the QR-based algorithm in [tenpy](https://github.com/tenpy/tenpy), 
+which supports symmetries, but can only run on CPU.
+
+As of april 2023, it is included in the main branch, but not yet in an official release, so you need 
+to build tenpy from source if you want to use it.
+
+GPU support for tenpy is on the longterm roadmap..
 
