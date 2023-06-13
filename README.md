@@ -1,9 +1,9 @@
 This repository contains the simulation code, benchmark data and figures used in our paper;
 
-## Fast Time-Evolution of Matrix-Product States using the QR decomposition
+## Fast time evolution of matrix product states using the QR decomposition
 Jakob Unfried, Johannes Hauschild and Frank Pollmann
 
-arXiv: [2212.09782](https://arxiv.org/abs/2212.09782)
+[Phys. Rev. B 107, 155133 – Published 21 April 2023](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.155133)
 
 We propose and benchmark a modified time evolution block decimation (TEBD) algorithm that uses a 
 truncation scheme based on the QR decomposition instead of the singular value decomposition (SVD).
