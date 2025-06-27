@@ -18,8 +18,5 @@ QR and SVD based updates on an A100 GPU.
 There is also an implementation of the QR-based algorithm in [tenpy](https://github.com/tenpy/tenpy), 
 which supports symmetries, but can only run on CPU.
 
-As of april 2023, it is included in the main branch, but not yet in an official release, so you need 
-to build tenpy from source if you want to use it.
-
-GPU support for tenpy is on the longterm roadmap..
+GPU support for tenpy is planned for version 2, and the linear algebra developed at [tenpy/cyten](https://github.com/tenpy/cyten)
 
